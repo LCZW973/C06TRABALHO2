@@ -25,5 +25,5 @@ public abstract class Pessoa {
     }
 
     public abstract void confereSeusDadosEspecificos();
-    public void atualizaEmail() {}
+    public abstract void atualizaEmail() ;
 }
