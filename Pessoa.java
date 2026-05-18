@@ -15,6 +15,15 @@ public abstract class Pessoa {
         this.id = id ;
     }
 
-    public void confereSeusDados() {}
+    public void confereSeusDadosComoPessoa()
+    {
+        System.out.println("Dados do cadastro ");
+        System.out.println("Nome : " + nome);
+        System.out.println("CPF : " + CPF);
+        System.out.println("Email : " + email);
+        confereSeusDadosEspecificos();
+    }
+
+    public abstract void confereSeusDadosEspecificos();
     public void atualizaEmail() {}
 }
